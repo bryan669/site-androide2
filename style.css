@@ -1,0 +1,115 @@
+@import url('https://fonts.google.com/specimen/Bebas+Neue?query=bebas');
+body{
+    background-color: rgb(181, 219, 205);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header{
+    background: linear-gradient(to top,#052b16,#175533,#0b803e)fixed;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    box-shadow: 5px 2px 10px black;
+}
+h1{
+   font-family: "Bebas Neue", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+h2{
+    color:#063d1e;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    align-items: center;
+}
+article{
+    display: inline-block;
+}
+ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+#as1{
+    background-color: #063D1E;
+    padding: 10px;
+    margin: -5px;
+}
+a{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+a:hover{
+    background-color: #2fa866;
+}
+main{
+    background-color: white;
+    margin: 0px 100px 0px 100px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 5px 15px  black;
+}
+
+#se1{
+    background-color: #063D1E;
+    text-align: center;
+    padding: 30px;
+    margin: 0px -20px 20px -20px;
+    
+}
+h4{
+    background-color:#1d683f;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    margin: -5px;
+    padding: 5px;
+}
+h3{
+    color:#1d683f;
+    background:linear-gradient(100deg, #b3f3d0, #b5f7d2, white );
+    padding: 5px;
+}
+#se2{
+    background-color:#70ffb0;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 5px;
+}
+img{
+    margin:0px auto;
+    display: block;
+    
+}
+a.externo::after{
+    content: '\00a0\1f517';
+    
+    
+}
+a.externo{
+    color: #113622;
+    background-color: #34dd80;
+    font-size: 16px;
+    
+    
+    
+}
+footer{
+    background-color: #063D1E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.externo{
+    padding: 2px;
+    border-radius: 0px;
+}
